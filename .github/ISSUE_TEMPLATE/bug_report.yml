@@ -72,7 +72,7 @@ body:
     attributes:
       label: Log file(s)
       description: >-
-        Please attach BepInEx/LogOutput.log (from both host and guest if
+        Please attach BepInEx\IronNestCoop_ts.log (from both host and guest(s) if
         possible). Drag-and-drop the file into this box.
     validations:
       required: false
