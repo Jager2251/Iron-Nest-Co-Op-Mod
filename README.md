@@ -164,6 +164,14 @@ Please [open an issue](https://github.com/Jager2251/Iron-Nest-Co-Op-Mod/issues) 
 
 ---
 
+## Third-party credits
+
+The standalone package includes **BepInEx** (<https://github.com/BepInEx/BepInEx>),
+licensed under the [GNU Lesser General Public License v2.1 (LGPL-2.1)](https://github.com/BepInEx/BepInEx/blob/master/LICENSE).
+BepInEx is not modified. Source code is available at the link above.
+
+---
+
 ## License
 
 Copyright © 2026 **Jager2251**. Licensed under
