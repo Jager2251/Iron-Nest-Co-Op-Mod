@@ -1,0 +1,19 @@
+name: Feature request / suggestion
+description: Suggest an improvement or something new to synchronise
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: What would you like to see, and what problem does it solve?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Anything else that helps explain the idea.
+    validations:
+      required: false

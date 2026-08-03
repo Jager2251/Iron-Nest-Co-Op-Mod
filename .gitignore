@@ -1,0 +1,39 @@
+# .gitignore for the Iron Nest Co-Op Mod issue tracker.
+# This repo holds only documentation (README, LICENSE) and issue templates.
+# No source code and no build output live here, so this list just keeps OS,
+# editor and stray temp files out of the public repo.
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+
+# Stray temp / backup / log files (should never be part of this repo)
+*.log
+*.tmp
+*.bak
+*.orig

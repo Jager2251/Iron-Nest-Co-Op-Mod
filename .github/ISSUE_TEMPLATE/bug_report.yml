@@ -1,0 +1,85 @@
+name: Bug report
+description: Report a problem, crash or desync in the co-op mod
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! The more you fill in, the
+        faster it can be reproduced and fixed.
+  - type: input
+    id: version
+    attributes:
+      label: Mod version
+      description: Shown in the top-left panel ("IronNest Coop v...").
+      placeholder: e.g. 1.9.57
+    validations:
+      required: true
+  - type: dropdown
+    id: package
+    attributes:
+      label: Which package do you use?
+      options:
+        - Standalone package (all-in-one)
+        - DLL only (own BepInEx)
+    validations:
+      required: true
+  - type: input
+    id: bepinex
+    attributes:
+      label: BepInEx version
+      description: Only needed for DLL-only installs.
+      placeholder: e.g. 6.0.0-be.785
+    validations:
+      required: false
+  - type: dropdown
+    id: role
+    attributes:
+      label: Your role when it happened
+      options:
+        - Host
+        - Guest
+        - Both / not sure
+    validations:
+      required: true
+  - type: input
+    id: players
+    attributes:
+      label: Number of players in the lobby
+      placeholder: e.g. 2
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the bug and what you expected to happen instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log file(s)
+      description: >-
+        Please attach BepInEx/LogOutput.log (from both host and guest if
+        possible). Drag-and-drop the file into this box.
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Anything else that might help (mission name, screenshots, video).
+    validations:
+      required: false
