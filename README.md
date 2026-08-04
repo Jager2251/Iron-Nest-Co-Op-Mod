@@ -4,8 +4,7 @@ A peer-to-peer co-op mod for **IRON NEST: Heavy Turret Simulator (Demo)**. Play
 the demo together over Steam. One player hosts a lobby, the others join with a
 short lobby code. Up to **5 players**.
 
-> ⬇️ **Download:** the mod will be released on **NexusMods** (link coming soon).
-> <!-- TODO: replace with the NexusMods URL once the mod is published -->
+> ⬇️ **Download:** [**NexusMods**](https://www.nexusmods.com/ironnest/mods/20)
 
 > 🐛 **This repository is the issue tracker.** Found a bug or have a suggestion?
 > Please [open an issue](https://github.com/Jager2251/Iron-Nest-Co-Op-Mod/issues). The mod's source code is not

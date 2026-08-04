@@ -1,9 +1,6 @@
 # Allow free-form issues in addition to the templates above.
 blank_issues_enabled: true
 contact_links:
-  - name: IRON NEST mods on NexusMods
-    url: https://www.nexusmods.com/games/ironnest/mods
-    about: >-
-      Browse IRON NEST mods. The Iron Nest Co-Op Mod download link will be
-      added here once it is released.
-  # TODO: add the official IRON NEST Discord (modding channel) as a contact link.
+  - name: Iron Nest Co-Op Mod on NexusMods
+    url: https://www.nexusmods.com/ironnest/mods/20
+    about: Download the mod from NexusMods.
