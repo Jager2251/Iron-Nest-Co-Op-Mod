@@ -1,7 +1,7 @@
 # Iron Nest Co-Op Mod
 
-A peer-to-peer co-op mod for **IRON NEST: Heavy Turret Simulator (Demo)**. Play
-the demo together over Steam. One player hosts a lobby, the others join with a
+A peer-to-peer co-op mod for **IRON NEST: Heavy Turret Simulator**. Play
+together over Steam. One player hosts a lobby, the others join with a
 short lobby code. Up to **5 players**.
 
 > ⬇️ **Download:** [**NexusMods**](https://www.nexusmods.com/ironnest/mods/20)
@@ -10,7 +10,7 @@ short lobby code. Up to **5 players**.
 > Please [open an issue](https://github.com/Jager2251/Iron-Nest-Co-Op-Mod/issues). The mod's source code is not
 > published here. This repo is used for issues and documentation only.
 
-**Requirement:** IRON NEST: Heavy Turret Simulator (**Demo**) installed via Steam.
+**Requirement:** IRON NEST: Heavy Turret Simulator installed via Steam.
 
 > ⚠️ **Every player must run the same mod version.** If someone joins with a
 > different version, the mod refuses the connection and shows a note in the panel.
@@ -24,9 +24,9 @@ short lobby code. Up to **5 players**.
 This download already contains **BepInEx** (the mod loader) *and* the mod itself.
 You do not need to install anything else.
 
-1. Open the game folder: in Steam, right-click **IRON NEST … Demo → Manage →
-   Browse local files**. (Typically `…\steamapps\common\IRON NEST Heavy Turret
-   Simulator Demo\`.)
+1. Open the game folder: in Steam, right-click **IRON NEST: Heavy Turret Simulator → Manage →
+   Browse local files**. (Typically `…\steamapps\common\Iron Nest Heavy Turret
+   Simulator\`.)
 2. Copy the **complete contents** of the package into that folder. Afterwards
    `winhttp.dll` and the `BepInEx` folder must sit right next to
    `Iron Nest Heavy Turret Simulator.exe`.
@@ -39,7 +39,7 @@ everything), or additionally delete the `BepInEx` and `dotnet` folders.
 
 ### Option B: DLL only (you already have BepInEx)
 
-Use this if you already run a working BepInEx setup for the demo. This download
+Use this if you already have a working BepInEx setup for the game. This download
 contains only the mod itself: `IronNestCoop.Core.dll`.
 
 **Required loader:** BepInEx 6 for **IL2CPP** (64-bit), a bleeding-edge (BE)
@@ -116,6 +116,11 @@ buttons:
 - Any player can calculate cards; checking a card off is synchronised (deleting
   is intentionally not).
 
+**Map-table drawings and markings**
+- The host can turn this off in the Options panel ("Sync map drawings") if players
+  prefer to work on their own local drawings. Clients can see the setting but
+  cannot change it.
+
 **Supply console**
 - Ammunition (per gun, left/right), powder charges and requisition points.
 - Repositioning the Iron Nest; reconnaissance plane.
@@ -131,9 +136,6 @@ buttons:
 
 - **Music** is intentionally not synced, so each player can decide for themselves
   whether they want to listen to music.
-- **Map-table drawings and markings** are not synced, so everyone can work
-  undisturbed. Only the **3D map pieces** are synced, so all players refer to the
-  same target numbers.
 - **Artillery computer inputs** stay local. Only the *generated cards* are
   synced, so several players can work at the same time, independently of one
   another.
